@@ -1,11 +1,5 @@
 # PaperCrunch App Backend API Documentation
 
-## Changes to be made
-
-### i) Add the Email and Password of the PaperCrunch official Gmail account
-    In "settings.py" file, add the account Email ID in the "EMAIL_HOST_USER" variable and the password in the "EMAIL_HOST_PASSWORD" variable.
-    Later uncomment the "user.send_email" functions in the "PasswordResetSerializer" and "RegistrationSerializer" present in the "serializers.py" file.
-
 ## 1) User Registration API
     - endpoint  : /api/register/
     - request   : POST
