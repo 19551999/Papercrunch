@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body style="
+    margin: 0;
+    padding: 0; ">
+        <div class="container" style="
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background-color: #b1eeec;  ">
+            <div class="logo" style="
+            align-self: center;
+            margin-top: 50px;
+            display: flex;
+            flex-direction: row;
+            width: 50%    ">
+                <div class="papercrunch" style="
+                left: 0;
+                float: right;
+                width: 150%  ">
+                        <img src="logo_papercrunch.png" alt="Papercrunch">
+                </div>
+                <div class="avatar" style="
+                right: 0;
+                background-image: url('avatar.png');
+                background-size: contain;
+                width: 20%;
+                background-repeat: no-repeat;   ">
+
+                </div>
+
+            </div>
+            <div class="welcome" style="
+            width: 50%;
+            height: 75%;
+            align-self: center;
+            background-color: #7de3df; ">
+                <div class="text" style="
+                margin: 50px;   ">
+                    <p>Dear {{ full_name }},</p>
+                    <br>
+                    <br>
+                    <p>
+                        Thank you for joining the PaperCrunch team. We hope you embark on this journey of learning how to code with utmost joy.
+                        <br>
+                        Thanking you, <br>
+                        The PaperCrunch Team
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

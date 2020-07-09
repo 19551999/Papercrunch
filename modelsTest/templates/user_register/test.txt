@@ -1,0 +1,16 @@
+Dear {{ full_name }},
+<br>
+<p>
+Thank you for joining the PaperCrunch team. We hope you embark on this journey of learning how to code with utmost joy.
+</p>
+<br>
+<p>
+Your credentials are <br>
+Email : <strong>{{ email }}</strong> <br>
+Passowrd : <strong>{{ password }}</strong>
+</p>
+<br>
+<p>
+Thanking you,
+<br>The paperCrunch Team
+</p>
