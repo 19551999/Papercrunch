@@ -1,5 +1,7 @@
 # PaperCrunch App Backend API Documentation
 
+These are the APIs I wrote for an android tutorial application Papercrunch. The entire code is available on this repo.
+
 ## 1) User Registration API
     - endpoint  : /api/register/
     - request   : POST
