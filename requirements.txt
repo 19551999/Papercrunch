@@ -5,7 +5,7 @@ django-dajaxice==0.7
 django-dbsettings==0.10.0
 django-heroku==0.3.1
 django-synchro==0.7
-djangorestframework==3.9.4
+djangorestframework==3.11.2
 gunicorn==19.9.0
 psycopg2==2.8.3
 pytz==2019.1
